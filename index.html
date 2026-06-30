@@ -1,3 +1,125 @@
 unhas
 
 compartilhando como fazer unhas
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio de Unhas</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ffe6f0;
+            color: #333;
+        }
+
+        header {
+            background: #ff4d94;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #ff80b3;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            display: inline-block;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        button {
+            background: #ff4d94;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #e60073;
+        }
+
+        footer {
+            background: #ff4d94;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>💅 Studio de Unhas</h1>
+    <p>Beleza, estilo e cuidado para suas unhas.</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Serviços</a>
+    <a href="#">Contato</a>
+</nav>
+
+<section>
+    <h2>Nossos Serviços</h2>
+
+    <div class="card">
+        <h3>Esmaltação</h3>
+        <p>Unhas lindas com diversas cores.</p>
+    </div>
+
+    <div class="card">
+        <h3>Alongamento</h3>
+        <p>Fibra de vidro e gel.</p>
+    </div>
+
+    <div class="card">
+        <h3>Nail Art</h3>
+        <p>Decorações modernas e personalizadas.</p>
+    </div>
+
+    <br><br>
+
+    <button onclick="agendar()">
+        Agendar Horário
+    </button>
+</section>
+
+<footer>
+    © 2026 Studio de Unhas - Todos os direitos reservados.
+</footer>
+
+<script>
+function agendar() {
+    alert("Obrigado pelo interesse! Em breve entraremos em contato.");
+}
+</script>
+
+</body>
+</html>
